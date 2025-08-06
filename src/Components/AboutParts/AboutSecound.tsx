@@ -6,7 +6,7 @@ const AboutSecound = () => {
     <div className="bg-AssendFade backdrop-blur-[3px] rounded-lg border border-WhiteyFade w-[95%] p-4 my-1   shadow-SecoundFade shadow-xl flex flex-row flex-wrap sm:flex-nowrap justify-between items-center gap-4 z-10 mb-[10px]">
       <div className="sm:hidden relative w-full sm:w-1/3  flex justify-center">
         <div className="relative w-[300px] sm:w-[500px] lg:w-[98%] aspect-square rounded-lg overflow-hidden shadow-lg shadow-WhiteyFade">
-          <Image src="/Image/Img2.jpg" alt="Profile photo" fill />
+          <Image src="/Image/Img2.jpg" alt="Profile photo" fill priority />
         </div>
       </div>
       <div className="w-full  sm:w-2/3 mt-4">
@@ -34,7 +34,7 @@ const AboutSecound = () => {
       </div>
       <div className="hidden relative w-full sm:w-1/3  sm:flex justify-center">
         <div className="hidden  relative w-[300px] sm:w-[500px] lg:w-[98%] aspect-square rounded-lg overflow-hidden shadow-lg shadow-WhiteyFade sm:flex">
-          <Image src="/Image/Img2.jpg" alt="Profile photo" fill />
+          <Image src="/Image/Img2.jpg" alt="Profile photo" fill priority />
         </div>
       </div>
     </div>

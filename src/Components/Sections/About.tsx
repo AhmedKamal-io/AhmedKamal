@@ -1,8 +1,9 @@
+import dynamic from "next/dynamic";
 import AboutSecound from "../AboutParts/AboutSecound";
 import AboutSocial from "../AboutParts/AboutSocial";
 import Introduce from "../AboutParts/Introduce";
 
-import Threads from "../Outside/Threads";
+const Threads = dynamic(() => import("../Outside/Threads"));
 
 // components/About.tsx
 export default function About() {

@@ -1,12 +1,13 @@
+import dynamic from "next/dynamic";
 import React from "react";
 import { FaInstagram, FaUserPlus, FaFacebook } from "react-icons/fa";
 
-import DotGrid from "../Outside/DotGrid";
+const DotGrid = dynamic(() => import("../Outside/DotGrid"), { ssr: true });
 import { FaXTwitter } from "react-icons/fa6";
 
 const AboutSocial = () => {
   return (
-    <div className="bg-PrimeFade w-[95%] rounded-3xl text-white py-5 px-4 md:px-20 relative flex flex-col justify-center items-center z-0 overflow-hidden Bigshadow my-6">
+    <div className="bg-PrimeFade w-[95%] rounded-3xl text-white py-5 px-4 md:px-20 relative flex flex-col justify-center items-center z-0 overflow-hidden Bigshadow my-4">
       <div className="absolute z-10 w-[100%]">
         {/* Background Dot Grid */}
         <div style={{ width: "100%", height: "600px", position: "relative" }}>

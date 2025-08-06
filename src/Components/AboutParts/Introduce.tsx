@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
-
 import Image from "next/image";
-import TextType from "../Outside/TextType";
+import dynamic from "next/dynamic";
+const TextType = dynamic(() => import("../Outside/TextType"));
 
 const Introduce = () => {
   return (
@@ -14,6 +14,7 @@ const Introduce = () => {
             src="/Image/Img1.jpg"
             alt="Ahmed Image"
             fill
+            priority
             className="object-cover"
           />
         </div>

@@ -10,7 +10,7 @@ const Technology = () => {
   return (
     <section
       id="services"
-      className="bg-Prime  p-2 pt-16 pb-6 flex flex-col justify-center items-center"
+      className="bg-Prime  p-2 pt-14 pb-6 flex flex-col justify-center items-center"
     >
       <h2 className="text-3xl font-bold text-center py-4  text-Whitey sm:text-4xl sm:max-w-sm md:text-5xl md:max-w-lg mx-auto">
         <span className="strokeSecound text-[110%]">Tech</span>nology &{" "}

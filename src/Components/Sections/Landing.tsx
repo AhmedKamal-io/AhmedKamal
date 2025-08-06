@@ -1,12 +1,22 @@
-// import HeroText from "../HeroText";
+import dynamic from "next/dynamic";
 import HeroText from "../HeroParts/HeroText";
-import RippleGrid2 from "../Outside/RippleGrid2";
-
+const RippleGrid = dynamic(() => import("../Outside/RippleGrid"));
 const Landing = () => {
   return (
     <div id="home" className="relative">
       <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
-        <RippleGrid2 />
+        <RippleGrid
+          enableRainbow={false}
+          gridColor="#4e26aa"
+          rippleIntensity={0.015}
+          gridSize={9}
+          gridThickness={30}
+          fadeDistance={1}
+          glowIntensity={8}
+          opacity={0.8}
+          vignetteStrength={6}
+          gridRotation={65}
+        />
       </div>
 
       <div
