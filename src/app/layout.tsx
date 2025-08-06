@@ -6,12 +6,14 @@ const geistSans = Goldman({
   variable: "--font-Prime",
   subsets: ["latin"],
   weight: "400",
+  display: "swap",
 });
 
 const geistMono = Outfit({
   variable: "--font-Second",
   subsets: ["latin"],
   weight: "400",
+  display: "swap",
 });
 
 export const metadata: Metadata = {

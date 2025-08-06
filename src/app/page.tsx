@@ -7,6 +7,9 @@ import Technology from "@/Components/Sections/Technology";
 import Projects from "@/Components/Sections/Projects";
 import Footer from "@/Components/Sections/Footer";
 
+// ✅ أخبر Next.js إن الصفحة static 100%
+export const dynamic = "force-static";
+
 const page = () => {
   return (
     <div>
@@ -16,12 +19,9 @@ const page = () => {
       <div>
         <NavBottom />
       </div>
-      {/* Sections */}
 
       <Landing />
-
       <About />
-
       <Technology />
       <Projects />
       <Footer />
