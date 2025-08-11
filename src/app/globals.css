@@ -1,53 +1,20 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 :root {
   --Blacky: #050505;
-  --BlackyFade: #05050556;
+  --BlackyFade: #05050577;
   --Whitey: #f9f6fe;
-  --WhiteyFade: #f5f0ff81;
-  --Prime: #19092a;
-  --PrimeFade: #19092a7a;
+  --WhiteyFade: #f5f0ff70;
+  --Prime: #27004e;
+  --PrimeFade: #27004e7a;
   --Secound: #4e26aa;
-  --SecoundFade: #4e26aa36;
-  --Assend: #797782;
-  --AssendFade: #79778239;
+  --SecoundFade: #4e26aa69;
+  --Assend: #6c6c6a;
+  --AssendFade: #6c6c6a39;
   --textColor: #f5f0ff;
-  --font-Zen-Dots: "Zen Dots";
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --Bluey: #030014;
+  --BlueyFade: #030014c9;
 }
 
 @theme inline {
@@ -68,20 +35,19 @@
   --color-SecoundFade: var(--SecoundFade);
   --color-Assend: var(--Assend);
   --color-AssendFade: var(--AssendFade);
-  --font-Zen: var(--font-Zen-Dots);
-  --font-mono: var(--font-geist-mono);
+  --color-Bluey: var(--Bluey);
 }
 
 body {
   background: var(--Blacky);
   color: var(--textColor);
   font-family: var(--font-Second);
-
+  box-shadow: 0 0 30px var(--Blacky) inset;
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
   user-select: none;
   text-transform: capitalize;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -92,7 +58,7 @@ h5,
 h6 {
   font-family: var(--font-Prime);
   font-weight: bolder;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
 }
 .strokeWhitey {
   -webkit-text-stroke: 0.125px var(--Whitey);
@@ -130,24 +96,25 @@ h6 {
 }
 .GluePrime {
   text-shadow: 0 0 10px var(--Prime), 0 0 20px var(--Prime),
-    0 0 30px var(--Prime);
+    0 0 30px var(--Prime), 0 0 40px var(--Prime), 0 0 40px var(--Prime);
 }
 .GlueAssend {
   text-shadow: 0 0 10px var(--Assend), 0 0 20px var(--Assend);
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.Masked {
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    var(--Blacky) 20%,
+    var(--Blacky) 80%,
+    transparent
+  );
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    var(--Blacky) 20%,
+    var(--Blacky) 80%,
+    transparent
+  );
 }
-
-.animate-marquee {
-  display: inline-block;
-  animation: marquee 20s linear infinite;
-}
-
-/* From Uiverse.io by dexter-st */

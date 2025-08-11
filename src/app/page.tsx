@@ -1,11 +1,15 @@
 import React from "react";
-import Landing from "../Components/Sections/Landing";
-import NavBar from "@/Components/Navigation/NavBar";
-import NavBottom from "@/Components/Navigation/NavBottom";
-import About from "@/Components/Sections/About";
-import Technology from "@/Components/Sections/Technology";
-import Projects from "@/Components/Sections/Projects";
-import Footer from "@/Components/Sections/Footer";
+import Landing from "../Components/Home/Sections/Landing";
+import NavBar from "@/Components/Home/Navigation/NavBar";
+import NavBottom from "@/Components/Home/Navigation/NavBottom";
+import About from "@/Components/Home/Sections/About";
+import Technology from "@/Components/Home/Sections/Technology";
+import Footer from "@/Components/Home/Sections/Footer";
+import Services from "@/Components/Home/Sections/Services";
+import Contact from "@/Components/Home/Sections/Contact";
+import SliderFreeLeft from "@/Components/Home/Marquee/SliderFreeLeft";
+import SliderFreeRight from "@/Components/Home/Marquee/SliderFreeRight";
+import Projects from "@/Components/Home/Sections/Projects";
 
 // ✅ أخبر Next.js إن الصفحة static 100%
 export const dynamic = "force-static";
@@ -21,9 +25,13 @@ const page = () => {
       </div>
 
       <Landing />
+      <SliderFreeLeft />
       <About />
+      <Services />
       <Technology />
       <Projects />
+      <SliderFreeRight />
+      <Contact />
       <Footer />
     </div>
   );

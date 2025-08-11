@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Goldman, Outfit } from "next/font/google";
+import { Goldman, Rubik } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Goldman({
@@ -9,7 +9,7 @@ const geistSans = Goldman({
   display: "swap",
 });
 
-const geistMono = Outfit({
+const geistMono = Rubik({
   variable: "--font-Second",
   subsets: ["latin"],
   weight: "400",
