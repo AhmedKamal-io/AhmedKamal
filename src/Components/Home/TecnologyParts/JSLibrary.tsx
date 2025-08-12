@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { SiFramer } from "react-icons/si";
 import GSAPlogo from "./GSAPlogo";
+import { FaBookAtlas } from "react-icons/fa6";
 
 const JSLibrary = () => {
   return (
@@ -20,7 +21,7 @@ const JSLibrary = () => {
       {/* المحتوى */}
       <div className="relative z-10 p-6 h-full w-full text-white">
         <h3 className="text-2xl border-b-2 border-Whitey my-[20px] flex justify-center items-center gap-1">
-          JavaScript Libraries
+          JavaScript Libraries <FaBookAtlas />
         </h3>
         <ul className="flex flex-col gap-1.5 text-2xl font-light">
           <li className="flex items-center gap-2 bg-BlackyFade p-1 hover:shadow-[#87c602] hover:shadow-lg rounded-lg hover:bg-Blacky transition-all duration-500 my-1">

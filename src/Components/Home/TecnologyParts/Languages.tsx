@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { SiCss3, SiHtml5, SiJavascript, SiTypescript } from "react-icons/si";
+import { FaCode } from "react-icons/fa6";
 
 const Languages = () => {
   return (
@@ -18,8 +19,8 @@ const Languages = () => {
 
       {/* محتوى العنصر */}
       <div className="relative z-10 p-6 h-full w-full text-white">
-        <h3 className="text-2xl border-b-2 border-Whitey my-[20px]">
-          Programming languages
+        <h3 className="text-2xl border-b-2 border-Whitey my-[20px] flex justify-center items-center gap-1">
+          Programming languages <FaCode />
         </h3>
         <ul className="flex flex-col gap-1.5 text-2xl font-light">
           <li className="flex items-center gap-2 bg-BlackyFade p-1 hover:shadow-[#F06529] hover:shadow-lg rounded-lg hover:bg-Blacky transition-all duration-500 my-1">

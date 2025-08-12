@@ -30,7 +30,7 @@ const CompanySlider2 = () => {
             src={companies.src}
             alt={companies.alt}
             width={120}
-            height={120}
+            height={80}
             loading="lazy"
             className={`grayscale-100 hover:grayscale-0 transition-all duration-600 Bigshadow p-1 ${companies.bg} rounded-2xl mx-1`}
           />

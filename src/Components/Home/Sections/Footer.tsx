@@ -34,6 +34,7 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/a7med_kamal_ak"
             target="_blank"
+            aria-label="Visit my instagram profile"
             className="mx-3 sm:mx-2"
           >
             <FaInstagram />
@@ -41,6 +42,7 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/ahmed.kamsl.5"
             target="_blank"
+            aria-label="Visit my facebook profile"
             className="mx-3 sm:mx-2"
           >
             <FaFacebook />
@@ -48,18 +50,24 @@ const Footer = () => {
           <a
             href="https://github.com/AhmedKamal-io"
             target="_blank"
+            aria-label="Visit my github profile"
             className="mx-3 sm:mx-2"
           >
             <FaGithub />
           </a>
-          <a href="" className="mx-3 sm:mx-2">
+          <a
+            href=""
+            className="mx-3 sm:mx-2"
+            target="_blank"
+            aria-label="Visit my X Twitter profile"
+          >
             <FaXTwitter />
           </a>
         </div>
         <div className="flex flex-nowrap w-1/2 my-2">
-          <h5 className="text-sm ml-[30%]">
+          <h2 className="text-sm ml-[30%]">
             Powerd by : <a href="">Ahmed Kamal</a>
-          </h5>
+          </h2>
         </div>
       </div>
       <div className="flex flex-row flex-nowrap justify-center items-center w">

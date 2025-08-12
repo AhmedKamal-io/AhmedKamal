@@ -51,6 +51,7 @@ const Introduce = () => {
           <a
             href="https://www.facebook.com/ahmed.kamsl.5"
             target="_blank"
+            aria-label="Visit my Facebook profile"
             className="hover:text-Secound transition-all duration-500 outline-none hover:outline-3 hover:outline-Prime bg-AssendFade rounded-full p-1.5 border-2 border-PrimeFade "
           >
             <FaFacebook />
@@ -58,6 +59,7 @@ const Introduce = () => {
           <a
             href="https://github.com/AhmedKamal-io"
             target="_blank"
+            aria-label="Visit my github profile"
             className="hover:text-Secound transition-all duration-500 outline-none hover:outline-3 hover:outline-Prime bg-AssendFade rounded-full p-1.5 border-2 border-PrimeFade "
           >
             <FaGithub />
@@ -65,6 +67,7 @@ const Introduce = () => {
           <a
             href="https://www.instagram.com/a7med_kamal_ak"
             target="_blank"
+            aria-label="Visit instagram profile"
             className="hover:text-Secound transition-all duration-500 outline-none hover:outline-3 hover:outline-Prime bg-AssendFade rounded-full p-1.5 border-2 border-PrimeFade "
           >
             <FaInstagram />
@@ -72,6 +75,7 @@ const Introduce = () => {
           <a
             href=""
             target="_blank"
+            aria-label="Visit my Linkedin profile"
             className="hover:text-Secound transition-all duration-500 outline-none hover:outline-3 hover:outline-Prime bg-AssendFade rounded-full p-1.5 border-2 border-PrimeFade "
           >
             <FaLinkedin />

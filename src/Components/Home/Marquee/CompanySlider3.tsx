@@ -28,7 +28,7 @@ const CompanySlider3 = () => {
             src={company.src}
             alt={company.alt}
             width={120}
-            height={120}
+            height={80}
             key={index}
             className={`grayscale-100 hover:grayscale-0 transition-all duration-600 Bigshadow p-1 ${company.bg} rounded-2xl mx-1`}
           />

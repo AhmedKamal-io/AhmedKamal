@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import React from "react";
-// import Image from "next/image";
 import { FaInstagram, FaUserPlus, FaFacebook } from "react-icons/fa";
 
 const DotGrid = dynamic(() => import("../Outside/DotGrid"), { ssr: true });
@@ -15,7 +14,7 @@ const AboutSocial = () => {
           <DotGrid
             dotSize={7}
             gap={12}
-            baseColor="#19092a"
+            baseColor="#27004e"
             activeColor="#4e26aa"
             proximity={120}
             speedTrigger={80}
@@ -29,14 +28,6 @@ const AboutSocial = () => {
       <div className="z-20">
         <h2 className="text-3xl font-bold text-center py-4 text-Whitey sm:text-4xl sm:max-w-sm md:text-5xl md:max-w-lg mx-auto GlueSecound relative">
           Social Media{" "}
-          {/* <Image
-            src="/Image/GlassInstegram.png"
-            alt="GlassInstegram"
-            width={150}
-            height={150}
-            loading="lazy"
-            className="absolute left-[80%] bottom-[12%] rotate-15"
-          /> */}
         </h2>
         {/* Social cards */}
         <div className="flex justify-center items-center flex-wrap gap-4">
@@ -46,6 +37,7 @@ const AboutSocial = () => {
             <a
               href="https://www.facebook.com/ahmed.kamsl.5"
               target="_blank"
+              aria-label="Visit my Facebook profile"
               className="text-5xl border-2 border-Blacky text-white mx-2  duration-700 shadow-lg shadow-WhiteyFade bg-Prime rounded-full flex justify-center items-center p-3 hover:scale-110 transform transition-all hover:shadow-2xl hover:shadow-Secound hover:bg-Whitey hover:text-Prime Bigshadow my-1 lg:my-4 "
             >
               <FaFacebook />
@@ -56,6 +48,7 @@ const AboutSocial = () => {
                 <a
                   href="https://www.facebook.com/ahmed.kamsl.5"
                   target="_blank"
+                  aria-label="Visit my Facebook profile"
                 >
                   <FaUserPlus />
                 </a>
@@ -67,6 +60,7 @@ const AboutSocial = () => {
             <a
               href="https://www.instagram.com/a7med_kamal_ak"
               target="_blank"
+              aria-label="Follow me on Instagram"
               className="text-5xl border-2 border-Blacky text-white mx-2  duration-700 shadow-lg shadow-WhiteyFade bg-Prime rounded-full flex justify-center items-center p-3 hover:scale-110 transform transition-all hover:shadow-2xl hover:shadow-Secound hover:bg-Whitey hover:text-Prime Bigshadow my-1 lg:my-4 "
             >
               <FaInstagram />
@@ -77,6 +71,7 @@ const AboutSocial = () => {
                 <a
                   href="https://www.instagram.com/a7med_kamal_ak"
                   target="_blank"
+                  aria-label="Follow me on Instagram"
                 >
                   <FaUserPlus />
                 </a>
@@ -86,7 +81,9 @@ const AboutSocial = () => {
           <div className="flex justify-center items-center mt-4 w-fit flex-col p-4 bg-BlackyFade rounded-2xl border-3  border-Whitey hover:transform hover:scale-110 duration-700 transition-all mx-9">
             <h3 className="text-2xl">X.com</h3>
             <a
+              aria-label="Visit my X Twitter profile"
               href=""
+              target="_blank"
               className="text-5xl border-2 border-Blacky text-white mx-2  duration-700 shadow-lg shadow-WhiteyFade bg-Prime rounded-full flex justify-center items-center p-3 hover:scale-110 transform transition-all hover:shadow-2xl hover:shadow-Secound hover:bg-Whitey hover:text-Prime Bigshadow my-1 lg:my-4 "
             >
               <FaXTwitter />
@@ -97,6 +94,7 @@ const AboutSocial = () => {
                 <a
                   href="https://www.instagram.com/a7med_kamal_ak"
                   target="_blank"
+                  aria-label="Visit my X Twitter profile"
                 >
                   <FaUserPlus />
                 </a>

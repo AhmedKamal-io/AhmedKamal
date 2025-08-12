@@ -22,7 +22,7 @@ const NavBar = () => {
       <NavLinks />
 
       {/* download cv botton */}
-      <div className="text-lg bg-BlackyFade rounded-full px-2">V 1.4.9</div>
+      <div className="text-lg bg-BlackyFade rounded-full px-2">V 1.5.2</div>
     </nav>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { SiNestjs, SiPostgresql, SiPrisma, SiThreedotjs } from "react-icons/si";
+import { FaClock } from "react-icons/fa";
 
 const ComingSoon = () => {
   return (
@@ -18,8 +19,9 @@ const ComingSoon = () => {
 
       {/* محتوى العنصر */}
       <div className="relative z-10 p-6 h-full w-full text-white">
-        <h3 className="text-2xl border-b-2 border-Whitey my-[20px]">
+        <h3 className="text-2xl border-b-2 border-Whitey my-[20px] flex justify-center items-center gap-1">
           Coming Soon ...
+          <FaClock className="text-2xl" />
         </h3>
         <ul className="flex flex-col gap-1.5 text-2xl font-light">
           <li className="flex items-center gap-2 bg-BlackyFade p-1 hover:shadow-[#2d5b82] hover:shadow-lg rounded-lg hover:bg-Blacky transition-all duration-500 my-1">

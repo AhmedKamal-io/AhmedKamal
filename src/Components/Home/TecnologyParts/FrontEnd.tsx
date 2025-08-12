@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { SiNextdotjs, SiReact, SiTailwindcss } from "react-icons/si";
+import { FaComputer } from "react-icons/fa6";
 
 const FrontEnd = () => {
   return (
@@ -18,8 +19,8 @@ const FrontEnd = () => {
 
       {/* المحتوى */}
       <div className="relative z-10 p-6 h-full w-full text-white">
-        <h3 className="text-2xl border-b-2 border-Whitey my-[20px]">
-          Front-End Technologies
+        <h3 className="text-2xl border-b-2 border-Whitey my-[20px] flex justify-center items-center gap-1">
+          Front-End Technologies <FaComputer className="" />
         </h3>
         <ul className="flex flex-col gap-1.5 text-2xl font-light">
           <li className="flex items-center gap-2 bg-BlackyFade p-1 hover:shadow-[#0081A3] hover:shadow-lg rounded-lg hover:bg-Blacky transition-all duration-500 my-1">

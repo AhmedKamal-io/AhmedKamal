@@ -1,11 +1,13 @@
 import dynamic from "next/dynamic";
 import HeroText from "../HeroParts/HeroText";
 
+// تحميل RippleGrid بعد الصفحة مع شاشة انتظار
 const RippleGrid = dynamic(() => import("../Outside/RippleGrid"));
+
 const Landing = () => {
   return (
     <div id="home" className="relative">
-      <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+      <div className="absolute inset-0 z-0">
         <RippleGrid
           enableRainbow={false}
           gridColor="#4e26aa"
@@ -20,10 +22,7 @@ const Landing = () => {
         />
       </div>
 
-      <div
-        style={{ position: "relative", zIndex: 1 }}
-        className="flex items-center justify-center h-screen"
-      >
+      <div className="relative z-10 flex items-center justify-center h-screen">
         <HeroText />
       </div>
     </div>
