@@ -1,10 +1,9 @@
-import dynamic from "next/dynamic";
 import React from "react";
 import {
   MdDesignServices,
   MdOutlineMiscellaneousServices,
 } from "react-icons/md";
-const Grid = dynamic(() => import("../ServicesParts/Grid"));
+import Grid from "../ServicesParts/Grid";
 
 const Services = () => {
   return (

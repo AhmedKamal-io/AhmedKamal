@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import React from "react";
 import Languages from "../TecnologyParts/Languages";
 import FrontEnd from "../TecnologyParts/FrontEnd";
@@ -6,10 +5,9 @@ import BackEnd from "../TecnologyParts/BackEnd";
 import DataBase from "../TecnologyParts/DataBase";
 import JSLibrary from "../TecnologyParts/JSLibrary";
 import CoomingSoon from "../TecnologyParts/CoomingSoon";
-
-const CompanySlider = dynamic(() => import("../Marquee/CompanySlider1"));
-const CompanySlider2 = dynamic(() => import("../Marquee/CompanySlider2"));
-const CompanySlider3 = dynamic(() => import("../Marquee/CompanySlider3"));
+import CompanySlider from "../Marquee/CompanySlider1";
+import CompanySlider2 from "../Marquee/CompanySlider2";
+import CompanySlider3 from "../Marquee/CompanySlider3";
 
 const Technology = () => {
   return (
