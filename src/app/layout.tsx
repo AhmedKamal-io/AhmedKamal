@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     siteName: "Ahmed Kamal",
     images: [
       {
+        // الصورة المفروض تكون في مجلد public داخل مشروعك، مثلاً public/favicon.jpg
         url: "/favicon.jpg",
         width: 1200,
         height: 630,

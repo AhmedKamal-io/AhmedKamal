@@ -12,7 +12,7 @@ const AboutSocial = () => {
         {/* Background Dot Grid */}
         <div style={{ width: "100%", height: "600px", position: "relative" }}>
           <DotGrid
-            dotSize={7}
+            dotSize={10}
             gap={12}
             baseColor="#27004e"
             activeColor="#4e26aa"
