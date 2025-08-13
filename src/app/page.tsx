@@ -5,11 +5,14 @@ import NavBottom from "@/Components/Home/Navigation/NavBottom";
 import About from "@/Components/Home/Sections/About";
 import SliderFreeLeft from "@/Components/Home/Marquee/SliderFreeLeft";
 import Services from "@/Components/Home/Sections/Services";
-import Technology from "@/Components/Home/Sections/Technology";
-import SliderFreeRight from "@/Components/Home/Marquee/SliderFreeRight";
-import Projects from "./Projects/page";
-import Contact from "@/Components/Home/Sections/Contact";
-
+const Technology = dynamic(
+  () => import("@/Components/Home/Sections/Technology")
+);
+const SliderFreeRight = dynamic(
+  () => import("@/Components/Home/Marquee/SliderFreeRight")
+);
+const Projects = dynamic(() => import("./Projects/page"));
+const Contact = dynamic(() => import("@/Components/Home/Sections/Contact"));
 const Footer = dynamic(() => import("@/Components/Home/Sections/Footer"));
 
 const page = () => {
