@@ -8,8 +8,8 @@
   --WhiteyFade: #f5f0ff70;
   --Prime: #27004e;
   --PrimeFade: #27004e7a;
-  --Secound: #4e26aa;
-  --SecoundFade: #4e26aa69;
+  --Secound: #824dff;
+  --SecoundFade: #824dff69;
   --Assend: #6c6c6a;
   --AssendFade: #6c6c6a39;
   --textColor: #f5f0ff;
@@ -48,6 +48,7 @@ body {
   user-select: none;
   text-transform: capitalize;
   letter-spacing: 0.5px;
+  overflow: hidden;
 }
 
 h1,
