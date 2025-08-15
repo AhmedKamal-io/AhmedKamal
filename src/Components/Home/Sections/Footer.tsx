@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCopyright, FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -56,12 +56,20 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href=""
+            href="https://x.com/AhmedKamal_io"
             className="mx-3 sm:mx-2"
             target="_blank"
             aria-label="Visit my X Twitter profile"
           >
             <FaXTwitter />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ahmed-kamal-63496837a/"
+            className="mx-3 sm:mx-2"
+            target="_blank"
+            aria-label="Visit my Linkedin profile"
+          >
+            <FaLinkedin />
           </a>
         </div>
         <div className="flex flex-nowrap w-1/2 my-2">

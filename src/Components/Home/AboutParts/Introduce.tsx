@@ -73,7 +73,7 @@ const Introduce = () => {
             <FaInstagram />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/ahmed-kamal-63496837a/"
             target="_blank"
             aria-label="Visit my Linkedin profile"
             className="hover:text-Secound transition-all duration-500 outline-none hover:outline-3 hover:outline-Prime bg-AssendFade rounded-full p-1.5 border-2 border-PrimeFade "

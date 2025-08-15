@@ -82,7 +82,7 @@ const AboutSocial = () => {
             <h3 className="text-2xl">X.com</h3>
             <a
               aria-label="Visit my X Twitter profile"
-              href=""
+              href="https://x.com/AhmedKamal_io"
               target="_blank"
               className="text-5xl border-2 border-Blacky text-white mx-2  duration-700 shadow-lg shadow-WhiteyFade bg-Prime rounded-full flex justify-center items-center p-3 hover:scale-110 transform transition-all hover:shadow-2xl hover:shadow-Secound hover:bg-Whitey hover:text-Prime Bigshadow my-1 lg:my-4 "
             >
@@ -92,7 +92,7 @@ const AboutSocial = () => {
               Follow Me{" "}
               <span className="text-xl ml-2 text-Whitey">
                 <a
-                  href="https://www.instagram.com/a7med_kamal_ak"
+                  href="https://x.com/AhmedKamal_io"
                   target="_blank"
                   aria-label="Visit my X Twitter profile"
                 >

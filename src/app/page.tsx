@@ -4,7 +4,7 @@ import NavBar from "@/Components/Home/Navigation/NavBar";
 import NavBottom from "@/Components/Home/Navigation/NavBottom";
 import About from "@/Components/Home/Sections/About";
 import SliderFreeLeft from "@/Components/Home/Marquee/SliderFreeLeft";
-import Services from "@/Components/Home/Sections/Services";
+const Services = dynamic(() => import("@/Components/Home/Sections/Services"));
 const Technology = dynamic(
   () => import("@/Components/Home/Sections/Technology")
 );
