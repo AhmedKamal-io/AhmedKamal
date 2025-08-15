@@ -12,10 +12,14 @@ const AboutSecound = () => {
       <div className="w-full  sm:w-2/3 mt-4">
         <p className="text-md leading-6 mb-4">
           I mainly build with{" "}
-          <span className="text-Secound font-semibold">Next.js</span> due to its
-          performance and flexibility, but I also utilize the{" "}
-          <span className="text-Secound font-semibold">MERN stack</span> when
-          projects require it.
+          <span className="text-Secound font-semibold bg-BlackyFade p-0.5 rounded-2xl">
+            Next.js
+          </span>{" "}
+          due to its performance and flexibility, but I also utilize the{" "}
+          <span className="p-0.5 rounded-2xl text-Secound font-semibold bg-BlackyFade">
+            MERN stack
+          </span>{" "}
+          when projects require it.
         </p>
         <p className="text-md leading-6 mb-6">
           I enjoy transforming ideas into powerful web experiences, always
@@ -23,7 +27,10 @@ const AboutSecound = () => {
         </p>
         <p className="mb-2.5">
           You can call me :
-          <span className="text-[125%] text-Secound font-bold"> Dr.Error</span>{" "}
+          <span className="text-[125%] text-Secound p-0.5 rounded-2xl font-bold bg-BlackyFade">
+            {" "}
+            Dr.Error
+          </span>{" "}
         </p>
         <a
           href="#projects"

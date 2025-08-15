@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-row flex-nowrap justify-center items-center w">
-        <div className="flex justify-center items-center py-3.5 text-md text-Assend">
+        <div className="flex justify-center items-center py-3.5 text-md text-Whitey">
           <span>
             <FaCopyright />
           </span>
